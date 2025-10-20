@@ -10,7 +10,7 @@ Built with simplicity, speed, and creativity in mind, this prototype focuses on 
 
 ## 🔥 Preview
 
-![Nova Rebooted Screenshot](./Frontend/images/demo.png)
+![Nova Rebooted Screenshot](./Frontend/images/demo1.png)
 
 
 ---
