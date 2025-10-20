@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
+    font-size: 16px;
 }
 
 .hero-section {
@@ -30,6 +31,29 @@ nav img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+nav select {
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
+
+nav section option {
+    color: var(--text);
+    margin-right: 16px;
+}
+
+.lang {
+    position: relative;
+}
+
+nav i {
+    position: absolute;
+    top: 16px;
+    right: 16px;
 }
 
 .hero-content {
