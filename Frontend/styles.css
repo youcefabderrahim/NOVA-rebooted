@@ -92,7 +92,15 @@ nav i {
 
 .card {
     padding: 24px 32px;
-    border: 3px solid red;
     border-radius: 0.5rem;
     box-shadow: 8px 8px 96px var(--secondary-flame);
+    cursor: pointer;
+}
+
+.card span {
+    color: var(--accent);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 16px 0px;
+    padding: 16px 24px;
 }
