@@ -1,0 +1,60 @@
+:root {
+    --background: #0E0E0E;
+    --primary-flame: #FF6B00;
+    --secondary-flame: #FFB347;
+    --accent: #FF4500;
+    --text: #EDEDED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Frontend/images/background1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0px;
+}
+.title {
+    border: 2px solid red;
+}
+
+.title img {
+    width: 400px;
+}
+
+.tagline {
+    text-align: center;
+}
+
+
+.cta-section  {
+    display: flex;
+}
+
+.card {
+    padding: 24px 32px;
+}
