@@ -63,7 +63,9 @@ nav i {
     margin: 24px 0px;
 }
 .title {
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    color: var(--accent);
+    margin-top: 48px;
 }
 
 .title img {
@@ -72,6 +74,14 @@ nav i {
 
 .tagline {
     text-align: center;
+    font-size: 1.5rem;
+    margin: 24px 0px;
+
+}
+
+.tagline:hover {
+    color: var(--primary-flame);
+    transition: all 2s;
 }
 
 
