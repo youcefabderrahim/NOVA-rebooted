@@ -7,6 +7,15 @@ Built with simplicity, speed, and creativity in mind, this prototype focuses on 
 
 ---
 
+
+## 🔥 Preview
+
+![Nova Rebooted Screenshot](./Frontend/images/background1.png)
+
+
+---
+
+
 ## 🚀 Overview
 
 **NOVA Rebooted** is a web-based AI assistant prototype designed to explore a modern, cinematic interface.  
