@@ -84,6 +84,14 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+    /* transform: translateY(-50%); */
+}
+
+/* ! target the placeholder */
+ input::placeholder {
+  color: red;
+  text-align: justify;
+  padding: 40px;
 }
 
 .other-actions {
@@ -95,3 +103,8 @@ body {
     font-size: 0.5rem;
 
 }
+
+
+
+
+/* TODO: gotta fix  the icons and placeholder issue */
