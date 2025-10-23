@@ -29,3 +29,34 @@ body {
     gap: 24px;
     padding: 24px 32px;
 }
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: var(--primary-flame);
+    transition: color 1s;
+}
+
+
+
+
+.other-actions {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.other-actions h2 a {
+    font-size: 0.5rem;
+
+}
