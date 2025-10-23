@@ -110,3 +110,8 @@ nav i {
 /* TODO: add a footer */
 /* TODO: Add chat page */
 /* TODO: Create a unique login page */
+
+.card a {
+    text-decoration: none;
+    color: var(--text);
+}
