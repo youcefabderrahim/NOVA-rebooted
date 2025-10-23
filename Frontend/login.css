@@ -55,6 +55,7 @@ body {
     border-radius: 1rem;
     min-width: 300px;
 }
+/* ! Key lesson: don't control the width of the container, but rather control the width of the component and let padding handle the rest */
 
 .login-container button {
     background-color: var(--accent);
