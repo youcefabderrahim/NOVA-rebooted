@@ -49,6 +49,30 @@ body {
 }
 
 
+.login-container input, button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 1rem;
+}
+
+.login-container button {
+    background-color: var(--accent);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: var(--primary-flame);
+    transition: all 0.5s;
+}
+
+/* ! Totally useless in forms */
+/* .login-container button:active {
+    background-color: var(--secondary-flame);
+    color: var(--background);
+
+} */
 
 
 .other-actions {
