@@ -109,7 +109,8 @@ body {
 }
 
 .other-actions h2 a {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+    text-decoration: none;
 
 }
 
@@ -117,3 +118,5 @@ body {
 
 
 /* TODO: gotta fix  the icons and placeholder issue */
+
+/* TODO: Create the sign up page, in the same html page, use css and js, use js and display none */
