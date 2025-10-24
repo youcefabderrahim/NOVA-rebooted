@@ -19,6 +19,7 @@ const signUpContainer = document.getElementById(`signUpContainer`);
     event.preventDefault(); // prevent jumping
     loginContainer.classList.add("hidden");
     signUpContainer.classList.remove("hidden");
+
   };
 
  
