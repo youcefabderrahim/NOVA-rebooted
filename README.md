@@ -131,6 +131,16 @@ The hero section features the blazing **“NOVA REBOOTED”** logo, tagline **�
 
 ## 🔗 New Feature: Login & Sign-up System
 
+---
+
+## 🔥 Preview
+
+![Nova Rebooted Screenshot](./Frontend/images/demo2.png)
+![Nova Rebooted Screenshot](./Frontend/images/demo3.png)
+
+
+---
+
 ### 📢 Description
 
 This update introduces a **dual-container authentication interface**, designed within a **single HTML page**.
