@@ -57,7 +57,7 @@ body {
 }
 
 
- input, button {
+ input, .btn {
     padding: 8px 16px;
     border: none;
     border-radius: 1rem;
@@ -65,14 +65,14 @@ body {
 }
 /* ! Key lesson: don't control the width of the container, but rather control the width of the component and let padding handle the rest */
 
-.login-container button, .sign-up-container button {
+.btn {
     background-color: var(--accent);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
 
- button:hover {
+ .btn:hover {
     background-color: var(--primary-flame);
     transition: all 0.5s;
 }
@@ -133,7 +133,17 @@ body {
 
 /* TODO: Create the sign up page, in the same html page, use css and js, use js and display none */
 
+.btn2 {
+    background-color: transparent;
+    font-size: 0.75rem;
+    border: none;
+}
 
-.hideSignup {
+
+.sign-up-container {
+    /* display: none; */
+}
+
+.hidden {
     display: none;
 }
