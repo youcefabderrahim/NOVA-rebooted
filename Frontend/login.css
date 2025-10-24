@@ -65,14 +65,14 @@ body {
 }
 /* ! Key lesson: don't control the width of the container, but rather control the width of the component and let padding handle the rest */
 
-.login-container button {
+.login-container button, .sign-up-container button {
     background-color: var(--accent);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
 
-.login-container button:hover {
+ button:hover {
     background-color: var(--primary-flame);
     transition: all 0.5s;
 }
@@ -112,6 +112,18 @@ body {
     font-size: 0.75rem;
     text-decoration: none;
 
+}
+
+.terms-privacy {
+    max-width: 300px;
+
+}
+
+.terms-privacy p, .terms-privacy p a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
