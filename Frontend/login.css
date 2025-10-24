@@ -16,7 +16,7 @@
 
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,6 +134,6 @@ body {
 /* TODO: Create the sign up page, in the same html page, use css and js, use js and display none */
 
 
-.sign-up-container {
-    /* display: none; */
+.hideSignup {
+    display: none;
 }
