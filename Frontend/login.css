@@ -26,7 +26,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.login-container {
+.login-container, .sign-up-container {
     /* border: 4px solid red; */
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ body {
     
 }
 
-.login-container form {
+.login-container form, .sign-up-container form {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -57,7 +57,7 @@ body {
 }
 
 
-.login-container input, button {
+ input, button {
     padding: 8px 16px;
     border: none;
     border-radius: 1rem;
@@ -120,3 +120,8 @@ body {
 /* TODO: gotta fix  the icons and placeholder issue */
 
 /* TODO: Create the sign up page, in the same html page, use css and js, use js and display none */
+
+
+.sign-up-container {
+    /* display: none; */
+}
