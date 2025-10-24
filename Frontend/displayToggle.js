@@ -3,7 +3,7 @@
 
 
 // get both links
-let SignUp = document.getElementById(`SignUp`);
+const SignUp = document.getElementById(`SignUp`);
 const Login = document.getElementById(`Login`);
 
 // get both containers, to apply the class to 
