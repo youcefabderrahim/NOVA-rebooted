@@ -178,4 +178,4 @@ This creates a faster and smoother user experience — no page reloads required.
 
 ## 👨‍💻 Author
 
-**Youcef Copy**
+**Yusef Codes**
