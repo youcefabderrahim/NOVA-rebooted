@@ -35,6 +35,13 @@ aside {
 
 main {
     background-color: sienna;
+    flex: 1;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
 }
 
 .icons {
