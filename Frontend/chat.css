@@ -1,0 +1,15 @@
+:root {
+    --background: #0E0E0E;
+    --primary-flame: #FF6B00;
+    --secondary-flame: #FFB347;
+    --accent: #FF4500;
+    --text: #EDEDED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
