@@ -76,6 +76,7 @@ main .input-field input {
     border: none;
     border-radius: 1rem;
     width: 100%;
+    background-color: var(--background);
 }
 
 main .input-field p {
@@ -86,8 +87,19 @@ main .input-field p {
 .input-area {
     width: 600px;
     background-color: red;
+    position: relative;
 }
 
 .plus-icon {
     position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: var(--text);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.plus-icon:hover {
+    background-color: var(--background);
 }
