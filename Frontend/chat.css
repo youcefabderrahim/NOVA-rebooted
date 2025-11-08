@@ -44,6 +44,15 @@ main nav {
     justify-content: space-between;
     padding: 1rem 2rem;
 }
+nav button {
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 8px 24px;
+    display: flex;
+    gap: 0.5rem;
+}
 
 .icons {
     display: flex;
