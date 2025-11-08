@@ -15,12 +15,6 @@
     font-size: 16px;
 }
 
-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 16px;
-}
 
 .chat-page {
     height: 100vh;
@@ -46,6 +40,13 @@ main nav {
     justify-content: space-between;
     padding: 1rem 2rem;
 }
+
+main nav img {
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
 nav button {
     border: none;
     border-radius: 1rem;
@@ -54,6 +55,7 @@ nav button {
     padding: 8px 24px;
     display: flex;
     gap: 0.5rem;
+    cursor: pointer;
 }
 
 nav button:hover {
@@ -63,6 +65,15 @@ nav button:hover {
 .icons {
     display: flex;
     flex-direction: column;
+}
+
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 16px;
+    cursor: pointer;
 }
 
 .icons .account {
@@ -101,10 +112,12 @@ main .input-field p {
 }
 
 .input-area {
-    width: 600px;    position: relative;
+    width: 600px;
+    position: relative;
 }
 
-.plus-icon, .send-icon {
+.plus-icon,
+.send-icon {
     position: absolute;
     top: 10px;
     font-size: 1.5rem;
@@ -116,11 +129,12 @@ main .input-field p {
 .send-icon {
     right: 10px;
 }
+
 .plus-icon {
     left: 10px;
 }
 
-.plus-icon:hover, .send-icon:hover {
+.plus-icon:hover,
+.send-icon:hover {
     background-color: var(--background);
 }
-
