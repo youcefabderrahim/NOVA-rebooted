@@ -66,6 +66,17 @@ main .input-field {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 500px;
-    gap: 1rem;
+    width: 600px;
+    gap: 0.5rem;
+}
+
+main .input-field input {
+    padding: 16px 16px;
+    border: none;
+    border-radius: 1rem;
+}
+
+main .input-field p {
+    text-align: center;
+    font-size: 0.75rem;
 }
