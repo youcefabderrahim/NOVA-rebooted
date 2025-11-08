@@ -176,6 +176,64 @@ This creates a faster and smoother user experience — no page reloads required.
 
 ---
 
+
+## 🌐 New Feature: Chat Page Interface
+
+---
+
+## 🔥 Preview
+
+![Nova Chat Screenshot](./Frontend/images/chat-page.png)
+
+---
+
+### 📢 Description
+
+This update introduces the **NOVA Chat Page Interface** — a clean, minimalistic layout for future AI interactions.  
+The focus is on **visual hierarchy**, **dark theme consistency**, and **practical layout composition** using Flexbox.
+
+The design features a **sidebar with Bootstrap icons**, a **top navigation bar** with a share button, and a **central chat area** with an input field and controls.  
+Every section is intentionally simple, optimized for clarity and smooth user experience.
+
+### 💡 What We Learned
+
+* Practiced **Flexbox alignment** to structure the page horizontally with sidebar and main content.
+* Reinforced use of **CSS variables** for consistent theme and color palette management.
+* Implemented **hover effects** for subtle interactivity using only pure CSS.
+* Enhanced design visibility with a **secondary background color (`--secondary-background`)** for better contrast in UI elements.
+* Integrated **Bootstrap Icons** seamlessly for clean iconography and scalability.
+
+### 🔧 How It Works
+
+* **HTML:**  
+  The structure consists of two main parts — a sidebar (`aside`) for icons and a `main` container for navigation, chat area, and input field.  
+  Icons and images are managed using simple `<i>` elements from Bootstrap Icons and `<img>` tags for branding.
+
+* **CSS:**  
+  The layout uses Flexbox for alignment (`flex-direction: row` for the chat page, `column` for icons).  
+  Global styling is handled through `:root` variables for colors, ensuring consistent theme application.  
+  Hover effects and icon placement are managed through relative and absolute positioning for intuitive spacing.
+
+* **Design Touches:**  
+  The **secondary background** helps inputs and hover states stand out from the main background.  
+  Rounded corners and spacing create a soft, professional feel consistent with the overall NOVA identity.
+
+### 💻 Key Takeaways
+
+* Practicing **fundamentals repeatedly** strengthens design intuition.  
+* Small changes like background contrast or hover transitions can make interfaces feel polished.  
+* Flexbox remains one of the most powerful tools for responsive layout control.  
+* Using minimal assets (only HTML + CSS + Bootstrap Icons) can still produce a clean, futuristic design.
+
+### 💡 Next Steps
+
+* Implement **message rendering** for user and AI responses.  
+* Add **typing animations** or message bubbles for realism.  
+* Integrate **basic JavaScript logic** for sending and displaying chat messages.  
+* Explore **responsive scaling** for tablet and mobile viewports.
+
+---
+
 ## 👨‍💻 Author
 
 **Yusef Codes**
