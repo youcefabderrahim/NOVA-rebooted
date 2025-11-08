@@ -1,5 +1,6 @@
 :root {
     --background: #0E0E0E;
+    --secondary-background: #242424;
     --primary-flame: #FF6B00;
     --secondary-flame: #FFB347;
     --accent: #FF4500;
@@ -28,14 +29,15 @@ img {
 }
 
 aside {
-    background-color: seagreen;
+    background-color: var(--background);
     height: 100%;
     width: 100px;
+    color: var(--text);
 
 }
 
 main {
-    background-color: sienna;
+    background-color: var(--background);
     flex: 1;
 }
 
@@ -54,6 +56,10 @@ nav button {
     gap: 0.5rem;
 }
 
+nav button:hover {
+    background-color: var(--secondary-background);
+}
+
 .icons {
     display: flex;
     flex-direction: column;
@@ -69,7 +75,7 @@ nav button {
 }
 
 main .chat-section {
-    height: 80%;
+    height: 78%;
 }
 
 main .input-field {
@@ -77,8 +83,7 @@ main .input-field {
     flex-direction: column;
     margin: 0 auto;
     width: 600px;
-    gap: 0.5rem;
-    background-color: #FF4500;
+    gap: 0.25rem;
 }
 
 main .input-field input {
@@ -86,18 +91,17 @@ main .input-field input {
     border: none;
     border-radius: 1rem;
     width: 100%;
-    background-color: var(--background);
+    background-color: var(--secondary-background);
 }
 
 main .input-field p {
     text-align: center;
     font-size: 0.75rem;
+    color: var(--text);
 }
 
 .input-area {
-    width: 600px;
-    background-color: red;
-    position: relative;
+    width: 600px;    position: relative;
 }
 
 .plus-icon, .send-icon {
